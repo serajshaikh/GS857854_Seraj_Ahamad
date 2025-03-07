@@ -3,7 +3,7 @@ import { FiDatabase, FiBox, FiGrid, FiBarChart2 } from "react-icons/fi";
 
 const Sidebar = () => {
   return (
-    <aside className="w-40 bg-white text-gray-700 h-screen border-gray-300">
+    <aside className="w-40 pt-16 bg-white text-gray-700 h-screen border-gray-300">
       <nav>
         <ul className="space-y-1">
           <li>
@@ -29,7 +29,7 @@ const Sidebar = () => {
               }
             >
               <FiBox className="mr-2" />
-              SKUs
+              SKU
             </NavLink>
           </li>
           <li>

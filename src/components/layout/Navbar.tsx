@@ -1,5 +1,3 @@
-
-
 import { useState } from "react";
 import { FaRegUserCircle } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
@@ -19,10 +17,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white border-b-0 px-4 flex items-center justify-between">
+    <nav className="fixed top-0 left-0 right-0 bg-white border-b-0 px-4 flex items-center justify-between z-50">
       {/* Left Side - Logo */}
       <div className="flex items-center">
-        <img src={logo} alt="Company Logo" className="h-12 w-auto mr-2" />
+        <img src={logo} alt="Company Logo" className="h-16 w-auto mr-2" />
       </div>
 
       {/* Middle Title */}

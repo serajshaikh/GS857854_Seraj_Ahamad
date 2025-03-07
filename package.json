@@ -11,6 +11,7 @@
     "clean": "rm -rf ./node_modules package-lock.json .cache dist && npm cache clean --force && npm i"
   },
   "dependencies": {
+    "@hello-pangea/dnd": "^18.0.1",
     "@reduxjs/toolkit": "^2.6.0",
     "@tailwindcss/vite": "^4.0.12",
     "ag-charts-react": "^11.1.1",
